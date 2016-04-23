@@ -13,6 +13,7 @@
 		244CBF591CCBE0A30031F64F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244CBF571CCBE0A30031F64F /* Main.storyboard */; };
 		244CBF5B1CCBE0A30031F64F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244CBF5A1CCBE0A30031F64F /* Assets.xcassets */; };
 		244CBF5E1CCBE0A30031F64F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244CBF5C1CCBE0A30031F64F /* LaunchScreen.storyboard */; };
+		244CBF681CCC05DD0031F64F /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 244CBF671CCC05DD0031F64F /* ArcGIS.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		244CBF5A1CCBE0A30031F64F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		244CBF5D1CCBE0A30031F64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		244CBF5F1CCBE0A30031F64F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244CBF671CCC05DD0031F64F /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ArcGIS.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		244CBF451CCBE0A20031F64F = {
 			isa = PBXGroup;
 			children = (
+				244CBF671CCC05DD0031F64F /* ArcGIS.bundle */,
 				244CBF501CCBE0A30031F64F /* SnakeEyes */,
 				244CBF4F1CCBE0A30031F64F /* Products */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				244CBF5E1CCBE0A30031F64F /* LaunchScreen.storyboard in Resources */,
 				244CBF5B1CCBE0A30031F64F /* Assets.xcassets in Resources */,
+				244CBF681CCC05DD0031F64F /* ArcGIS.bundle in Resources */,
 				244CBF591CCBE0A30031F64F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +257,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = $HOME/Library/SDKs/ArcGIS/iOS;
 				INFOPLIST_FILE = SnakeEyes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.matthew.SnakeEyes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -264,8 +277,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = $HOME/Library/SDKs/ArcGIS/iOS;
 				INFOPLIST_FILE = SnakeEyes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.matthew.SnakeEyes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
