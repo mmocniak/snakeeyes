@@ -7,14 +7,21 @@
 //
 
 import UIKit
+import ArcGIS
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet var mapView: AGSMapView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        print("Hello world")
+        //Add a basemap tiled layer
+        let url = NSURL(string: "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer")
+        let tiledLayer = AGSTiledMapServiceLayer(URL: url)
+        self.mapView.addMapLayer(tiledLayer, withName: "Basemap Tiled Layer")
     }
 
     override func didReceiveMemoryWarning() {
