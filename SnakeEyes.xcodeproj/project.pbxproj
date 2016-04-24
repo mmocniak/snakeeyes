@@ -12,6 +12,7 @@
 		24F083611CCCED2400CE8159 /* SnakeTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F083601CCCED2400CE8159 /* SnakeTypes.swift */; };
 		24F083631CCCFC5A00CE8159 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F083621CCCFC5A00CE8159 /* PlaylistDetailViewController.swift */; };
 		24F083651CCD13A700CE8159 /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F083641CCD13A700CE8159 /* PlaylistMasterViewController.swift */; };
+		24F083671CCD2E7D00CE8159 /* orangesnake.png in Resources */ = {isa = PBXBuildFile; fileRef = 24F083661CCD2E7D00CE8159 /* orangesnake.png */; };
 		97F6674A19E224E9001D1724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6674919E224E9001D1724 /* AppDelegate.swift */; };
 		97F6674C19E224E9001D1724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6674B19E224E9001D1724 /* ViewController.swift */; };
 		97F6674F19E224E9001D1724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F6674D19E224E9001D1724 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		24F083601CCCED2400CE8159 /* SnakeTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeTypes.swift; sourceTree = "<group>"; };
 		24F083621CCCFC5A00CE8159 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
 		24F083641CCD13A700CE8159 /* PlaylistMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistMasterViewController.swift; sourceTree = "<group>"; };
+		24F083661CCD2E7D00CE8159 /* orangesnake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangesnake.png; sourceTree = "<group>"; };
 		97F6674419E224E9001D1724 /* FeatureLayerEditing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeatureLayerEditing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F6674819E224E9001D1724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97F6674919E224E9001D1724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		97F6673B19E224E9001D1724 = {
 			isa = PBXGroup;
 			children = (
+				24F083661CCD2E7D00CE8159 /* orangesnake.png */,
 				97F6676B19E22616001D1724 /* SVProgressHUD */,
 				24F0835D1CCCECE800CE8159 /* Algorythm */,
 				97F6674619E224E9001D1724 /* FeatureLayerEditing */,
@@ -183,6 +186,7 @@
 			files = (
 				97F6674F19E224E9001D1724 /* Main.storyboard in Resources */,
 				97F6675419E224E9001D1724 /* LaunchScreen.xib in Resources */,
+				24F083671CCD2E7D00CE8159 /* orangesnake.png in Resources */,
 				97F6675119E224E9001D1724 /* Images.xcassets in Resources */,
 				97F6677019E22616001D1724 /* SVProgressHUD.bundle in Resources */,
 				97F6677619E22CAC001D1724 /* ArcGIS.bundle in Resources */,
@@ -326,7 +330,7 @@
 					"-l",
 					"c++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.esri.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esri.FeatureLayerEditing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SVProgressHUD/SVProgressHUD-Bridging-Header.h";
@@ -349,7 +353,7 @@
 					"-l",
 					"c++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.esri.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esri.FeatureLayerEditing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SVProgressHUD/SVProgressHUD-Bridging-Header.h";
