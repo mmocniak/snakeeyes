@@ -18,9 +18,17 @@ struct Types {
     var pattern: UIImage?
     
     init (index: Int) {
-        let snakeLibrary = SnakeLibrary().library
+        let snakeLibrary = Snakes().library
         let typeDictionary = snakeLibrary[index]
         
-        title: 
+        title = typeDictionary["title"] as String!
+        venomous = typeDictionary["venomous"] as String!
+        description = typeDictionary["description"] as String!
+        
+        let iconName = typeDictionary["image"] as String!
+        image = UIImage(named: iconName)
+        
+        let patternName = typeDictionary["pattern"] as String!
+        pattern = UIImage(named: patternName)
     }
 }
