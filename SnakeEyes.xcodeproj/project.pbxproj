@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24819A2C1CCCC3C900B6C857 /* CollectionView in Resources */ = {isa = PBXBuildFile; fileRef = 24819A2B1CCCC3C900B6C857 /* CollectionView */; };
+		24F0835C1CCCCEFB00CE8159 /* EmergencyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0835B1CCCCEFB00CE8159 /* EmergencyInfo.swift */; };
 		97F6674A19E224E9001D1724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6674919E224E9001D1724 /* AppDelegate.swift */; };
 		97F6674C19E224E9001D1724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6674B19E224E9001D1724 /* ViewController.swift */; };
 		97F6674F19E224E9001D1724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F6674D19E224E9001D1724 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24819A2B1CCCC3C900B6C857 /* CollectionView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CollectionView; path = FeatureLayerEditing/CollectionView; sourceTree = "<group>"; };
+		24F0835B1CCCCEFB00CE8159 /* EmergencyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyInfo.swift; sourceTree = "<group>"; };
 		97F6674419E224E9001D1724 /* FeatureLayerEditing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeatureLayerEditing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F6674819E224E9001D1724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97F6674919E224E9001D1724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +56,7 @@
 				97F6676B19E22616001D1724 /* SVProgressHUD */,
 				97F6674619E224E9001D1724 /* FeatureLayerEditing */,
 				97F6674519E224E9001D1724 /* Products */,
+				24819A2B1CCCC3C900B6C857 /* CollectionView */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +79,7 @@
 				97F6675219E224E9001D1724 /* LaunchScreen.xib */,
 				97F6677519E22CAC001D1724 /* ArcGIS.bundle */,
 				97F6674719E224E9001D1724 /* Supporting Files */,
+				24F0835B1CCCCEFB00CE8159 /* EmergencyInfo.swift */,
 			);
 			path = FeatureLayerEditing;
 			sourceTree = "<group>";
@@ -133,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97F6673F19E224E9001D1724 /* Build configuration list for PBXProject "FeatureLayerEditing" */;
+			buildConfigurationList = 97F6673F19E224E9001D1724 /* Build configuration list for PBXProject "SnakeEyes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -159,6 +165,7 @@
 				97F6674F19E224E9001D1724 /* Main.storyboard in Resources */,
 				97F6675419E224E9001D1724 /* LaunchScreen.xib in Resources */,
 				97F6675119E224E9001D1724 /* Images.xcassets in Resources */,
+				24819A2C1CCCC3C900B6C857 /* CollectionView in Resources */,
 				97F6677019E22616001D1724 /* SVProgressHUD.bundle in Resources */,
 				97F6677619E22CAC001D1724 /* ArcGIS.bundle in Resources */,
 			);
@@ -175,6 +182,7 @@
 				97F6677119E22616001D1724 /* SVProgressHUD.m in Sources */,
 				97F6674C19E224E9001D1724 /* ViewController.swift in Sources */,
 				97F6674A19E224E9001D1724 /* AppDelegate.swift in Sources */,
+				24F0835C1CCCCEFB00CE8159 /* EmergencyInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +291,6 @@
 		97F6676419E224E9001D1724 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = $HOME/Library/SDKs/ArcGIS/iOS;
 				INFOPLIST_FILE = FeatureLayerEditing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -303,7 +310,6 @@
 		97F6676519E224E9001D1724 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = $HOME/Library/SDKs/ArcGIS/iOS;
 				INFOPLIST_FILE = FeatureLayerEditing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -323,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97F6673F19E224E9001D1724 /* Build configuration list for PBXProject "FeatureLayerEditing" */ = {
+		97F6673F19E224E9001D1724 /* Build configuration list for PBXProject "SnakeEyes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97F6676119E224E9001D1724 /* Debug */,
