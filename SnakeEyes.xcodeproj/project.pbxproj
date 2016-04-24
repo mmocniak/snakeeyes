@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24819A2C1CCCC3C900B6C857 /* CollectionView in Resources */ = {isa = PBXBuildFile; fileRef = 24819A2B1CCCC3C900B6C857 /* CollectionView */; };
 		24F0835C1CCCCEFB00CE8159 /* EmergencyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0835B1CCCCEFB00CE8159 /* EmergencyInfo.swift */; };
 		97F6674A19E224E9001D1724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6674919E224E9001D1724 /* AppDelegate.swift */; };
 		97F6674C19E224E9001D1724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6674B19E224E9001D1724 /* ViewController.swift */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		24819A2B1CCCC3C900B6C857 /* CollectionView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CollectionView; path = FeatureLayerEditing/CollectionView; sourceTree = "<group>"; };
 		24F0835B1CCCCEFB00CE8159 /* EmergencyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyInfo.swift; sourceTree = "<group>"; };
 		97F6674419E224E9001D1724 /* FeatureLayerEditing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeatureLayerEditing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F6674819E224E9001D1724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 				97F6676B19E22616001D1724 /* SVProgressHUD */,
 				97F6674619E224E9001D1724 /* FeatureLayerEditing */,
 				97F6674519E224E9001D1724 /* Products */,
-				24819A2B1CCCC3C900B6C857 /* CollectionView */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +133,7 @@
 				TargetAttributes = {
 					97F6674319E224E9001D1724 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = B6S6ZDH2HK;
 					};
 				};
 			};
@@ -165,7 +163,6 @@
 				97F6674F19E224E9001D1724 /* Main.storyboard in Resources */,
 				97F6675419E224E9001D1724 /* LaunchScreen.xib in Resources */,
 				97F6675119E224E9001D1724 /* Images.xcassets in Resources */,
-				24819A2C1CCCC3C900B6C857 /* CollectionView in Resources */,
 				97F6677019E22616001D1724 /* SVProgressHUD.bundle in Resources */,
 				97F6677619E22CAC001D1724 /* ArcGIS.bundle in Resources */,
 			);
@@ -291,6 +288,9 @@
 		97F6676419E224E9001D1724 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = $HOME/Library/SDKs/ArcGIS/iOS;
 				INFOPLIST_FILE = FeatureLayerEditing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -303,6 +303,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.esri.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SVProgressHUD/SVProgressHUD-Bridging-Header.h";
 			};
 			name = Debug;
@@ -310,6 +311,9 @@
 		97F6676519E224E9001D1724 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = $HOME/Library/SDKs/ArcGIS/iOS;
 				INFOPLIST_FILE = FeatureLayerEditing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -322,6 +326,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.esri.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SVProgressHUD/SVProgressHUD-Bridging-Header.h";
 			};
 			name = Release;
