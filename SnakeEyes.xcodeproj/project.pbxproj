@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		24F0835C1CCCCEFB00CE8159 /* EmergencyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0835B1CCCCEFB00CE8159 /* EmergencyInfo.swift */; };
+		24F0835F1CCCED1800CE8159 /* SnakeLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0835E1CCCED1800CE8159 /* SnakeLibrary.swift */; };
+		24F083611CCCED2400CE8159 /* SnakeTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F083601CCCED2400CE8159 /* SnakeTypes.swift */; };
 		97F6674A19E224E9001D1724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6674919E224E9001D1724 /* AppDelegate.swift */; };
 		97F6674C19E224E9001D1724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6674B19E224E9001D1724 /* ViewController.swift */; };
 		97F6674F19E224E9001D1724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F6674D19E224E9001D1724 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		24F0835B1CCCCEFB00CE8159 /* EmergencyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyInfo.swift; sourceTree = "<group>"; };
+		24F0835E1CCCED1800CE8159 /* SnakeLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeLibrary.swift; sourceTree = "<group>"; };
+		24F083601CCCED2400CE8159 /* SnakeTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeTypes.swift; sourceTree = "<group>"; };
 		97F6674419E224E9001D1724 /* FeatureLayerEditing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeatureLayerEditing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F6674819E224E9001D1724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97F6674919E224E9001D1724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,10 +52,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24F0835D1CCCECE800CE8159 /* Algorythm */ = {
+			isa = PBXGroup;
+			children = (
+				24F0835E1CCCED1800CE8159 /* SnakeLibrary.swift */,
+				24F083601CCCED2400CE8159 /* SnakeTypes.swift */,
+			);
+			name = Algorythm;
+			path = FeatureLayerEditing;
+			sourceTree = "<group>";
+		};
 		97F6673B19E224E9001D1724 = {
 			isa = PBXGroup;
 			children = (
 				97F6676B19E22616001D1724 /* SVProgressHUD */,
+				24F0835D1CCCECE800CE8159 /* Algorythm */,
 				97F6674619E224E9001D1724 /* FeatureLayerEditing */,
 				97F6674519E224E9001D1724 /* Products */,
 			);
@@ -179,7 +194,9 @@
 				97F6677119E22616001D1724 /* SVProgressHUD.m in Sources */,
 				97F6674C19E224E9001D1724 /* ViewController.swift in Sources */,
 				97F6674A19E224E9001D1724 /* AppDelegate.swift in Sources */,
+				24F0835F1CCCED1800CE8159 /* SnakeLibrary.swift in Sources */,
 				24F0835C1CCCCEFB00CE8159 /* EmergencyInfo.swift in Sources */,
+				24F083611CCCED2400CE8159 /* SnakeTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
