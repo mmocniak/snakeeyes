@@ -10,6 +10,8 @@
 		24F0835C1CCCCEFB00CE8159 /* EmergencyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0835B1CCCCEFB00CE8159 /* EmergencyInfo.swift */; };
 		24F0835F1CCCED1800CE8159 /* SnakeLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F0835E1CCCED1800CE8159 /* SnakeLibrary.swift */; };
 		24F083611CCCED2400CE8159 /* SnakeTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F083601CCCED2400CE8159 /* SnakeTypes.swift */; };
+		24F083631CCCFC5A00CE8159 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F083621CCCFC5A00CE8159 /* PlaylistDetailViewController.swift */; };
+		24F083651CCD13A700CE8159 /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F083641CCD13A700CE8159 /* PlaylistMasterViewController.swift */; };
 		97F6674A19E224E9001D1724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6674919E224E9001D1724 /* AppDelegate.swift */; };
 		97F6674C19E224E9001D1724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6674B19E224E9001D1724 /* ViewController.swift */; };
 		97F6674F19E224E9001D1724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F6674D19E224E9001D1724 /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 		24F0835B1CCCCEFB00CE8159 /* EmergencyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyInfo.swift; sourceTree = "<group>"; };
 		24F0835E1CCCED1800CE8159 /* SnakeLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeLibrary.swift; sourceTree = "<group>"; };
 		24F083601CCCED2400CE8159 /* SnakeTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeTypes.swift; sourceTree = "<group>"; };
+		24F083621CCCFC5A00CE8159 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
+		24F083641CCD13A700CE8159 /* PlaylistMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistMasterViewController.swift; sourceTree = "<group>"; };
 		97F6674419E224E9001D1724 /* FeatureLayerEditing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeatureLayerEditing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F6674819E224E9001D1724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97F6674919E224E9001D1724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 			children = (
 				24F0835E1CCCED1800CE8159 /* SnakeLibrary.swift */,
 				24F083601CCCED2400CE8159 /* SnakeTypes.swift */,
+				24F083621CCCFC5A00CE8159 /* PlaylistDetailViewController.swift */,
+				24F083641CCD13A700CE8159 /* PlaylistMasterViewController.swift */,
 			);
 			name = Algorythm;
 			path = FeatureLayerEditing;
@@ -195,7 +201,9 @@
 				97F6674C19E224E9001D1724 /* ViewController.swift in Sources */,
 				97F6674A19E224E9001D1724 /* AppDelegate.swift in Sources */,
 				24F0835F1CCCED1800CE8159 /* SnakeLibrary.swift in Sources */,
+				24F083631CCCFC5A00CE8159 /* PlaylistDetailViewController.swift in Sources */,
 				24F0835C1CCCCEFB00CE8159 /* EmergencyInfo.swift in Sources */,
+				24F083651CCD13A700CE8159 /* PlaylistMasterViewController.swift in Sources */,
 				24F083611CCCED2400CE8159 /* SnakeTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
