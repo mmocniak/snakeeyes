@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SnakeEyes.xcscheme</key>
+		<key>FeatureLayerEditing.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>244CBF4D1CCBE0A30031F64F</key>
+		<key>97F6674319E224E9001D1724</key>
 		<dict>
 			<key>primary</key>
 			<true/>

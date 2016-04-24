@@ -7,29 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		244CBF521CCBE0A30031F64F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CBF511CCBE0A30031F64F /* AppDelegate.swift */; };
-		244CBF541CCBE0A30031F64F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CBF531CCBE0A30031F64F /* FirstViewController.swift */; };
-		244CBF561CCBE0A30031F64F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244CBF551CCBE0A30031F64F /* SecondViewController.swift */; };
-		244CBF591CCBE0A30031F64F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244CBF571CCBE0A30031F64F /* Main.storyboard */; };
-		244CBF5B1CCBE0A30031F64F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244CBF5A1CCBE0A30031F64F /* Assets.xcassets */; };
-		244CBF5E1CCBE0A30031F64F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244CBF5C1CCBE0A30031F64F /* LaunchScreen.storyboard */; };
-		244CBF681CCC05DD0031F64F /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 244CBF671CCC05DD0031F64F /* ArcGIS.bundle */; };
+		97F6674A19E224E9001D1724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6674919E224E9001D1724 /* AppDelegate.swift */; };
+		97F6674C19E224E9001D1724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6674B19E224E9001D1724 /* ViewController.swift */; };
+		97F6674F19E224E9001D1724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F6674D19E224E9001D1724 /* Main.storyboard */; };
+		97F6675119E224E9001D1724 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F6675019E224E9001D1724 /* Images.xcassets */; };
+		97F6675419E224E9001D1724 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97F6675219E224E9001D1724 /* LaunchScreen.xib */; };
+		97F6676A19E22596001D1724 /* FeatureTemplatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F6676919E22596001D1724 /* FeatureTemplatePickerController.swift */; };
+		97F6677019E22616001D1724 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97F6676D19E22616001D1724 /* SVProgressHUD.bundle */; };
+		97F6677119E22616001D1724 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F6676F19E22616001D1724 /* SVProgressHUD.m */; };
+		97F6677619E22CAC001D1724 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97F6677519E22CAC001D1724 /* ArcGIS.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		244CBF4E1CCBE0A30031F64F /* SnakeEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnakeEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		244CBF511CCBE0A30031F64F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		244CBF531CCBE0A30031F64F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		244CBF551CCBE0A30031F64F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		244CBF581CCBE0A30031F64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		244CBF5A1CCBE0A30031F64F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		244CBF5D1CCBE0A30031F64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		244CBF5F1CCBE0A30031F64F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		244CBF671CCC05DD0031F64F /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ArcGIS.bundle; sourceTree = "<group>"; };
+		97F6674419E224E9001D1724 /* FeatureLayerEditing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeatureLayerEditing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F6674819E224E9001D1724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F6674919E224E9001D1724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97F6674B19E224E9001D1724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97F6674E19E224E9001D1724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97F6675019E224E9001D1724 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		97F6675319E224E9001D1724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		97F6676919E22596001D1724 /* FeatureTemplatePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureTemplatePickerController.swift; sourceTree = "<group>"; };
+		97F6676C19E22616001D1724 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		97F6676D19E22616001D1724 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		97F6676E19E22616001D1724 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		97F6676F19E22616001D1724 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		97F6677219E227D1001D1724 /* SVProgressHUD-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Bridging-Header.h"; sourceTree = "<group>"; };
+		97F6677519E22CAC001D1724 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = $HOME/Library/SDKs/ArcGIS/iOS/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		244CBF4B1CCBE0A30031F64F /* Frameworks */ = {
+		97F6674119E224E9001D1724 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,73 +46,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		244CBF451CCBE0A20031F64F = {
+		97F6673B19E224E9001D1724 = {
 			isa = PBXGroup;
 			children = (
-				244CBF671CCC05DD0031F64F /* ArcGIS.bundle */,
-				244CBF501CCBE0A30031F64F /* SnakeEyes */,
-				244CBF4F1CCBE0A30031F64F /* Products */,
+				97F6676B19E22616001D1724 /* SVProgressHUD */,
+				97F6674619E224E9001D1724 /* FeatureLayerEditing */,
+				97F6674519E224E9001D1724 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		244CBF4F1CCBE0A30031F64F /* Products */ = {
+		97F6674519E224E9001D1724 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				244CBF4E1CCBE0A30031F64F /* SnakeEyes.app */,
+				97F6674419E224E9001D1724 /* FeatureLayerEditing.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		244CBF501CCBE0A30031F64F /* SnakeEyes */ = {
+		97F6674619E224E9001D1724 /* FeatureLayerEditing */ = {
 			isa = PBXGroup;
 			children = (
-				244CBF511CCBE0A30031F64F /* AppDelegate.swift */,
-				244CBF531CCBE0A30031F64F /* FirstViewController.swift */,
-				244CBF551CCBE0A30031F64F /* SecondViewController.swift */,
-				244CBF571CCBE0A30031F64F /* Main.storyboard */,
-				244CBF5A1CCBE0A30031F64F /* Assets.xcassets */,
-				244CBF5C1CCBE0A30031F64F /* LaunchScreen.storyboard */,
-				244CBF5F1CCBE0A30031F64F /* Info.plist */,
+				97F6674919E224E9001D1724 /* AppDelegate.swift */,
+				97F6674B19E224E9001D1724 /* ViewController.swift */,
+				97F6676919E22596001D1724 /* FeatureTemplatePickerController.swift */,
+				97F6674D19E224E9001D1724 /* Main.storyboard */,
+				97F6675019E224E9001D1724 /* Images.xcassets */,
+				97F6675219E224E9001D1724 /* LaunchScreen.xib */,
+				97F6677519E22CAC001D1724 /* ArcGIS.bundle */,
+				97F6674719E224E9001D1724 /* Supporting Files */,
 			);
-			path = SnakeEyes;
+			path = FeatureLayerEditing;
+			sourceTree = "<group>";
+		};
+		97F6674719E224E9001D1724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97F6674819E224E9001D1724 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97F6676B19E22616001D1724 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				97F6676C19E22616001D1724 /* SVProgressHUD-Prefix.pch */,
+				97F6676D19E22616001D1724 /* SVProgressHUD.bundle */,
+				97F6676E19E22616001D1724 /* SVProgressHUD.h */,
+				97F6677219E227D1001D1724 /* SVProgressHUD-Bridging-Header.h */,
+				97F6676F19E22616001D1724 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		244CBF4D1CCBE0A30031F64F /* SnakeEyes */ = {
+		97F6674319E224E9001D1724 /* FeatureLayerEditing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 244CBF621CCBE0A30031F64F /* Build configuration list for PBXNativeTarget "SnakeEyes" */;
+			buildConfigurationList = 97F6676319E224E9001D1724 /* Build configuration list for PBXNativeTarget "FeatureLayerEditing" */;
 			buildPhases = (
-				244CBF4A1CCBE0A30031F64F /* Sources */,
-				244CBF4B1CCBE0A30031F64F /* Frameworks */,
-				244CBF4C1CCBE0A30031F64F /* Resources */,
+				97F6674019E224E9001D1724 /* Sources */,
+				97F6674119E224E9001D1724 /* Frameworks */,
+				97F6674219E224E9001D1724 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SnakeEyes;
-			productName = SnakeEyes;
-			productReference = 244CBF4E1CCBE0A30031F64F /* SnakeEyes.app */;
+			name = FeatureLayerEditing;
+			productName = FeatureLayerEditing;
+			productReference = 97F6674419E224E9001D1724 /* FeatureLayerEditing.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		244CBF461CCBE0A20031F64F /* Project object */ = {
+		97F6673C19E224E9001D1724 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = mmocniak;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Esri;
 				TargetAttributes = {
-					244CBF4D1CCBE0A30031F64F = {
-						CreatedOnToolsVersion = 7.3;
+					97F6674319E224E9001D1724 = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
-			buildConfigurationList = 244CBF491CCBE0A20031F64F /* Build configuration list for PBXProject "SnakeEyes" */;
+			buildConfigurationList = 97F6673F19E224E9001D1724 /* Build configuration list for PBXProject "FeatureLayerEditing" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,68 +141,69 @@
 				en,
 				Base,
 			);
-			mainGroup = 244CBF451CCBE0A20031F64F;
-			productRefGroup = 244CBF4F1CCBE0A30031F64F /* Products */;
+			mainGroup = 97F6673B19E224E9001D1724;
+			productRefGroup = 97F6674519E224E9001D1724 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				244CBF4D1CCBE0A30031F64F /* SnakeEyes */,
+				97F6674319E224E9001D1724 /* FeatureLayerEditing */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		244CBF4C1CCBE0A30031F64F /* Resources */ = {
+		97F6674219E224E9001D1724 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				244CBF5E1CCBE0A30031F64F /* LaunchScreen.storyboard in Resources */,
-				244CBF5B1CCBE0A30031F64F /* Assets.xcassets in Resources */,
-				244CBF681CCC05DD0031F64F /* ArcGIS.bundle in Resources */,
-				244CBF591CCBE0A30031F64F /* Main.storyboard in Resources */,
+				97F6674F19E224E9001D1724 /* Main.storyboard in Resources */,
+				97F6675419E224E9001D1724 /* LaunchScreen.xib in Resources */,
+				97F6675119E224E9001D1724 /* Images.xcassets in Resources */,
+				97F6677019E22616001D1724 /* SVProgressHUD.bundle in Resources */,
+				97F6677619E22CAC001D1724 /* ArcGIS.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		244CBF4A1CCBE0A30031F64F /* Sources */ = {
+		97F6674019E224E9001D1724 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				244CBF561CCBE0A30031F64F /* SecondViewController.swift in Sources */,
-				244CBF521CCBE0A30031F64F /* AppDelegate.swift in Sources */,
-				244CBF541CCBE0A30031F64F /* FirstViewController.swift in Sources */,
+				97F6676A19E22596001D1724 /* FeatureTemplatePickerController.swift in Sources */,
+				97F6677119E22616001D1724 /* SVProgressHUD.m in Sources */,
+				97F6674C19E224E9001D1724 /* ViewController.swift in Sources */,
+				97F6674A19E224E9001D1724 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		244CBF571CCBE0A30031F64F /* Main.storyboard */ = {
+		97F6674D19E224E9001D1724 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				244CBF581CCBE0A30031F64F /* Base */,
+				97F6674E19E224E9001D1724 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		244CBF5C1CCBE0A30031F64F /* LaunchScreen.storyboard */ = {
+		97F6675219E224E9001D1724 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				244CBF5D1CCBE0A30031F64F /* Base */,
+				97F6675319E224E9001D1724 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		244CBF601CCBE0A30031F64F /* Debug */ = {
+		97F6676119E224E9001D1724 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -190,36 +219,35 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		244CBF611CCBE0A30031F64F /* Release */ = {
+		97F6676219E224E9001D1724 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -234,32 +262,30 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		244CBF631CCBE0A30031F64F /* Debug */ = {
+		97F6676419E224E9001D1724 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = $HOME/Library/SDKs/ArcGIS/iOS;
-				INFOPLIST_FILE = SnakeEyes/Info.plist;
+				INFOPLIST_FILE = FeatureLayerEditing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -268,18 +294,18 @@
 					"-l",
 					"c++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = self.edu.matthew.SnakeEyes;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esri.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SVProgressHUD/SVProgressHUD-Bridging-Header.h";
 			};
 			name = Debug;
 		};
-		244CBF641CCBE0A30031F64F /* Release */ = {
+		97F6676519E224E9001D1724 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = $HOME/Library/SDKs/ArcGIS/iOS;
-				INFOPLIST_FILE = SnakeEyes/Info.plist;
+				INFOPLIST_FILE = FeatureLayerEditing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -288,32 +314,34 @@
 					"-l",
 					"c++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = self.edu.matthew.SnakeEyes;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.esri.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SVProgressHUD/SVProgressHUD-Bridging-Header.h";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		244CBF491CCBE0A20031F64F /* Build configuration list for PBXProject "SnakeEyes" */ = {
+		97F6673F19E224E9001D1724 /* Build configuration list for PBXProject "FeatureLayerEditing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				244CBF601CCBE0A30031F64F /* Debug */,
-				244CBF611CCBE0A30031F64F /* Release */,
+				97F6676119E224E9001D1724 /* Debug */,
+				97F6676219E224E9001D1724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		244CBF621CCBE0A30031F64F /* Build configuration list for PBXNativeTarget "SnakeEyes" */ = {
+		97F6676319E224E9001D1724 /* Build configuration list for PBXNativeTarget "FeatureLayerEditing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				244CBF631CCBE0A30031F64F /* Debug */,
-				244CBF641CCBE0A30031F64F /* Release */,
+				97F6676419E224E9001D1724 /* Debug */,
+				97F6676519E224E9001D1724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 244CBF461CCBE0A20031F64F /* Project object */;
+	rootObject = 97F6673C19E224E9001D1724 /* Project object */;
 }
