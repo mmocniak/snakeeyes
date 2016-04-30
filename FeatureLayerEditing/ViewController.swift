@@ -27,7 +27,7 @@ class ViewController: UIViewController, AGSMapViewLayerDelegate, AGSMapViewTouch
     var newFeature:AGSGraphic!
     
     override func prefersStatusBarHidden() -> Bool {
-        return true
+        return false
     }
     
     
@@ -35,8 +35,8 @@ class ViewController: UIViewController, AGSMapViewLayerDelegate, AGSMapViewTouch
         super.viewDidLoad()
         
         //initialize the navigation bar buttons
-        self.pickTemplateButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "presentFeatureTemplatePicker")
-        self.sketchCompleteButton = UIBarButtonItem(barButtonSystemItem: .Done, target: self, action: "sketchComplete")
+        self.pickTemplateButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: #selector(ViewController.presentFeatureTemplatePicker))
+        self.sketchCompleteButton = UIBarButtonItem(barButtonSystemItem: .Done, target: self, action: #selector(ViewController.sketchComplete))
         
         //Display the pickTemplateButton initially so that user can start collecting a new feature
         self.navigationItem.rightBarButtonItem = self.pickTemplateButton
